@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+.controller {
+  width: 100%;
+  min-width: 1140px;
+  height: 1000px; 
+	background: #F8F8F8;
+  overflow: hidden;
+}
+.search {
+	width: 1092px;
+	height: 70px;
+	margin: 0 auto;
+	background: pink;
+	overflow: hidden;
+}
+
+.search .searchName {
+	width: 300px;
+	height: 30px;
+	float: left;
+	margin-top: 15px;
+	cursor: pointer;
+}
+.search .searchName span {
+	display: block;
+	width: 50px;
+	height: 30px;
+	float: left;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 3px;
+	color: #fff;
+}
+.search .searchName #userName {
+	display: block;
+	width: 240px;
+	height: 30px;
+	float: right;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+}
+.search .jobNum {
+	width: 300px;
+	height: 30px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.search .jobNum span {
+	display: block;
+	width: 50px;
+	height: 30px;
+	float: left;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 3px;
+	color: #fff;
+}
+.search .jobNum #jobNumber {
+	display: block;
+	width: 240px;
+	height: 30px;
+	float: right;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+}
+.search .searchUsers {
+	width: 100px;
+	height: 30px;
+	margin-top: 20px;
+	margin-right: 40px;
+	float: right;
+}
+
+.usersList {
+	width: 1092px;
+	height: 580px;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-top: 34px;
+	margin-bottom: 20px;	
+}
+.usersList .listAdd {
+	width: 98%;
+	height: 55px;
+	margin: 0 auto;
+	border-bottom: 1px solid #DDDDDD;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.usersList .listEdit {
+	width: 1020px;
+	height: 430px;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-top: 1px solid #DDDDDD;
+}

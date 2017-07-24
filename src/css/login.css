@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+header {
+  width: 100%;
+  min-width: 1140px;
+  height: 810px;
+  background: #F8F8F8;
+  overflow: hidden;
+}
+header .layout {
+  width: 900px;
+  height: 572px;
+  margin: 0 auto;
+  margin-top: 25px;
+  box-shadow: 5px 5px 5px gray;
+  background: white;
+}
+header .layout .logo-pic {
+  width: 514px;
+  height: 573px;
+  float: left;
+}
+header .layout .login-box {
+  width: 386px;
+  height: 573px;
+  float: right;
+}
+header .layout .login-box .hide {
+  visibility: hidden;
+}
+header .layout .login-box em {
+  font-style: normal;
+  display: block;
+  width: 80%;
+  height: 65px;
+  margin: 0 auto;
+  margin-top: 65px;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: left;
+  color: #0EA9EB;
+}
+header .layout .login-box input {
+  width: 70%;
+  height: 35px;
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 45px;
+  margin-left: 15%;
+}
+header .layout .login-box input:nth-of-type(1) {
+  margin-top: 30px;
+}
+header .layout .login-box input:nth-of-type(2) {
+  margin-top: 5px;
+}
+header .layout .login-box i {
+  display: block;
+  font-style: normal;
+  width: 80%;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 45px;
+  text-align: left;
+  color: red;
+}
+header .layout .login-box #login-btn {
+  width: 40%;
+  height: 45px;
+  margin: 0 auto;
+  margin-top: 45px;
+  background: #0EA9EB;
+  opacity: .4;
+  cursor: pointer;
+}
+header .layout .login-box #login-btn span {
+  text-align: center;
+  line-height: 45px;
+  font-size: 20px;
+  color: black;
+}
+.inputbox{
+  width:100%;
+}
